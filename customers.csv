@@ -1,0 +1,22 @@
+customer_id,first_name,last_name,email,phone,address,city,state,zip_code,country,registration_date
+1,John,Smith,john.smith@email.com,555-0101,123 Main St,New York,NY,10001,USA,2023-01-15
+2,Emily,Johnson,emily.johnson@email.com,555-0102,456 Oak Ave,Los Angeles,CA,90001,USA,2023-02-20
+3,Michael,Williams,michael.williams@email.com,555-0103,789 Pine Rd,Chicago,IL,60601,USA,2023-01-08
+4,Sarah,Brown,sarah.brown@email.com,555-0104,321 Elm St,Houston,TX,77001,USA,2023-03-12
+5,David,Jones,david.jones@email.com,555-0105,654 Maple Dr,Phoenix,AZ,85001,USA,2023-02-05
+6,Jessica,Garcia,jessica.garcia@email.com,555-0106,987 Cedar Ln,Philadelphia,PA,19101,USA,2023-04-18
+7,Robert,Miller,robert.miller@email.com,555-0107,147 Birch Way,San Antonio,TX,78201,USA,2023-01-25
+8,Amanda,Davis,amanda.davis@email.com,555-0108,258 Spruce Ct,San Diego,CA,92101,USA,2023-03-30
+9,James,Rodriguez,james.rodriguez@email.com,555-0109,369 Willow St,Dallas,TX,75201,USA,2023-02-14
+10,Lisa,Martinez,lisa.martinez@email.com,555-0110,741 Ash Blvd,San Jose,CA,95101,USA,2023-04-05
+11,William,Hernandez,william.hernandez@email.com,555-0111,852 Poplar Ave,Austin,TX,78701,USA,2023-01-30
+12,Maria,Lopez,maria.lopez@email.com,555-0112,963 Hickory Rd,Jacksonville,FL,32201,USA,2023-03-22
+13,Richard,Gonzalez,richard.gonzalez@email.com,555-0113,159 Sycamore Dr,Fort Worth,TX,76101,USA,2023-02-28
+14,Jennifer,Wilson,jennifer.wilson@email.com,555-0114,357 Chestnut St,Columbus,OH,43201,USA,2023-04-10
+15,Joseph,Anderson,joseph.anderson@email.com,555-0115,468 Walnut Ln,Charlotte,NC,28201,USA,2023-01-18
+16,Patricia,Thomas,patricia.thomas@email.com,555-0116,579 Magnolia Way,San Francisco,CA,94101,USA,2023-03-08
+17,Charles,Taylor,charles.taylor@email.com,555-0117,680 Dogwood Ct,Indianapolis,IN,46201,USA,2023-02-12
+18,Linda,Moore,linda.moore@email.com,555-0118,791 Redwood St,Seattle,WA,98101,USA,2023-04-25
+19,Thomas,Jackson,thomas.jackson@email.com,555-0119,802 Fir Ave,Denver,CO,80201,USA,2023-01-22
+20,Nancy,Martin,nancy.martin@email.com,555-0120,913 Cypress Blvd,Washington,DC,20001,USA,2023-03-15
+

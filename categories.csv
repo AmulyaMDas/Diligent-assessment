@@ -1,0 +1,19 @@
+category_id,category_name,description,parent_category_id
+1,Electronics,Electronic devices and accessories,NULL
+2,Clothing,Apparel and fashion items,NULL
+3,Accessories,Personal accessories and bags,NULL
+4,Home & Kitchen,Home improvement and kitchen items,NULL
+5,Sports & Fitness,Sports equipment and fitness gear,NULL
+6,Audio,Audio equipment and headphones,1
+7,Mobile Accessories,Smartphone and tablet accessories,1
+8,Computers,Computer peripherals and accessories,1
+9,Men's Clothing,Clothing items for men,2
+10,Women's Clothing,Clothing items for women,2
+11,Footwear,Shoes and footwear,2
+12,Bags & Luggage,"Bags, backpacks and luggage",3
+13,Personal Care,Personal care accessories,3
+14,Kitchen Appliances,Kitchen and cooking appliances,4
+15,Home Decor,Home decoration items,4
+16,Exercise Equipment,Exercise and fitness equipment,5
+17,Sports Accessories,Sports gear and accessories,5
+

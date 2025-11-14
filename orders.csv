@@ -1,0 +1,27 @@
+order_id,customer_id,order_date,order_status,total_amount,shipping_address,shipping_city,shipping_state,shipping_zip,payment_method,shipping_cost
+1001,1,2023-05-15,Delivered,104.98,123 Main St,New York,NY,10001,Credit Card,5.99
+1002,3,2023-05-16,Delivered,79.99,789 Pine Rd,Chicago,IL,60601,PayPal,5.99
+1003,5,2023-05-17,Shipped,149.98,654 Maple Dr,Phoenix,AZ,85001,Credit Card,7.99
+1004,2,2023-05-18,Processing,44.99,456 Oak Ave,Los Angeles,CA,90001,Debit Card,5.99
+1005,7,2023-05-19,Delivered,89.99,147 Birch Way,San Antonio,TX,78201,Credit Card,5.99
+1006,4,2023-05-20,Shipped,124.98,321 Elm St,Houston,TX,77001,PayPal,7.99
+1007,9,2023-05-21,Delivered,69.99,369 Willow St,Dallas,TX,75201,Credit Card,5.99
+1008,6,2023-05-22,Processing,94.98,987 Cedar Ln,Philadelphia,PA,19101,Debit Card,5.99
+1009,11,2023-05-23,Shipped,79.99,852 Poplar Ave,Austin,TX,78701,Credit Card,5.99
+1010,8,2023-05-24,Delivered,134.98,258 Spruce Ct,San Diego,CA,92101,PayPal,7.99
+1011,12,2023-05-25,Processing,49.99,963 Hickory Rd,Jacksonville,FL,32201,Credit Card,5.99
+1012,15,2023-05-26,Shipped,109.98,468 Walnut Ln,Charlotte,NC,28201,Debit Card,5.99
+1013,13,2023-05-27,Delivered,89.99,159 Sycamore Dr,Fort Worth,TX,76101,Credit Card,5.99
+1014,10,2023-05-28,Processing,64.99,741 Ash Blvd,San Jose,CA,95101,PayPal,5.99
+1015,17,2023-05-29,Shipped,84.98,680 Dogwood Ct,Indianapolis,IN,46201,Credit Card,5.99
+1016,14,2023-05-30,Delivered,149.98,357 Chestnut St,Columbus,OH,43201,Debit Card,7.99
+1017,19,2023-05-31,Processing,34.99,802 Fir Ave,Denver,CO,80201,Credit Card,5.99
+1018,16,2023-06-01,Shipped,119.98,579 Magnolia Way,San Francisco,CA,94101,PayPal,7.99
+1019,18,2023-06-02,Delivered,94.98,791 Redwood St,Seattle,WA,98101,Credit Card,5.99
+1020,20,2023-06-03,Processing,79.99,913 Cypress Blvd,Washington,DC,20001,Debit Card,5.99
+1021,1,2023-06-04,Shipped,129.98,123 Main St,New York,NY,10001,Credit Card,7.99
+1022,3,2023-06-05,Delivered,59.99,789 Pine Rd,Chicago,IL,60601,PayPal,5.99
+1023,5,2023-06-06,Processing,104.98,654 Maple Dr,Phoenix,AZ,85001,Credit Card,5.99
+1024,7,2023-06-07,Shipped,89.99,147 Birch Way,San Antonio,TX,78201,Debit Card,5.99
+1025,9,2023-06-08,Delivered,139.98,369 Willow St,Dallas,TX,75201,Credit Card,7.99
+

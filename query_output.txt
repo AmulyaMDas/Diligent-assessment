@@ -1,0 +1,660 @@
+================================================================================
+E-COMMERCE ANALYTICS REPORT - MULTI-TABLE JOIN QUERY
+================================================================================
+
+
+
+QUERY 1 RESULTS:
+[
+  {
+    "customer_id": 9,
+    "customer_name": "James Rodriguez",
+    "email": "james.rodriguez@email.com",
+    "order_id": 1025,
+    "order_date": "2023-06-08",
+    "order_status": "Delivered",
+    "total_amount": 139.98,
+    "product_name": "Wireless Bluetooth Headphones",
+    "brand": "SoundMax",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 79.99,
+    "subtotal": 79.99
+  },
+  {
+    "customer_id": 9,
+    "customer_name": "James Rodriguez",
+    "email": "james.rodriguez@email.com",
+    "order_id": 1025,
+    "order_date": "2023-06-08",
+    "order_status": "Delivered",
+    "total_amount": 139.98,
+    "product_name": "Bluetooth Speaker",
+    "brand": "AudioWave",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 64.99,
+    "subtotal": 64.99
+  },
+  {
+    "customer_id": 7,
+    "customer_name": "Robert Miller",
+    "email": "robert.miller@email.com",
+    "order_id": 1024,
+    "order_date": "2023-06-07",
+    "order_status": "Shipped",
+    "total_amount": 89.99,
+    "product_name": "Running Shoes - Black",
+    "brand": "RunFast",
+    "category_name": "Clothing",
+    "quantity": 1,
+    "unit_price": 89.99,
+    "subtotal": 89.99
+  },
+  {
+    "customer_id": 5,
+    "customer_name": "David Jones",
+    "email": "david.jones@email.com",
+    "order_id": 1023,
+    "order_date": "2023-06-06",
+    "order_status": "Processing",
+    "total_amount": 104.98,
+    "product_name": "Wireless Bluetooth Headphones",
+    "brand": "SoundMax",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 79.99,
+    "subtotal": 79.99
+  },
+  {
+    "customer_id": 5,
+    "customer_name": "David Jones",
+    "email": "david.jones@email.com",
+    "order_id": 1023,
+    "order_date": "2023-06-06",
+    "order_status": "Processing",
+    "total_amount": 104.98,
+    "product_name": "Smartphone Case - Clear",
+    "brand": "ProtectPro",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 24.99,
+    "subtotal": 24.99
+  },
+  {
+    "customer_id": 3,
+    "customer_name": "Michael Williams",
+    "email": "michael.williams@email.com",
+    "order_id": 1022,
+    "order_date": "2023-06-05",
+    "order_status": "Delivered",
+    "total_amount": 59.99,
+    "product_name": "Denim Jeans - Blue",
+    "brand": "DenimCo",
+    "category_name": "Clothing",
+    "quantity": 1,
+    "unit_price": 59.99,
+    "subtotal": 59.99
+  },
+  {
+    "customer_id": 1,
+    "customer_name": "John Smith",
+    "email": "john.smith@email.com",
+    "order_id": 1021,
+    "order_date": "2023-06-04",
+    "order_status": "Shipped",
+    "total_amount": 129.98,
+    "product_name": "Wireless Bluetooth Headphones",
+    "brand": "SoundMax",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 79.99,
+    "subtotal": 79.99
+  },
+  {
+    "customer_id": 1,
+    "customer_name": "John Smith",
+    "email": "john.smith@email.com",
+    "order_id": 1021,
+    "order_date": "2023-06-04",
+    "order_status": "Shipped",
+    "total_amount": 129.98,
+    "product_name": "Wireless Mouse",
+    "brand": "TechMouse",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 34.99,
+    "subtotal": 34.99
+  },
+  {
+    "customer_id": 1,
+    "customer_name": "John Smith",
+    "email": "john.smith@email.com",
+    "order_id": 1021,
+    "order_date": "2023-06-04",
+    "order_status": "Shipped",
+    "total_amount": 129.98,
+    "product_name": "Phone Stand",
+    "brand": "DeskPro",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 14.99,
+    "subtotal": 14.99
+  },
+  {
+    "customer_id": 20,
+    "customer_name": "Nancy Martin",
+    "email": "nancy.martin@email.com",
+    "order_id": 1020,
+    "order_date": "2023-06-03",
+    "order_status": "Processing",
+    "total_amount": 79.99,
+    "product_name": "Wireless Bluetooth Headphones",
+    "brand": "SoundMax",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 79.99,
+    "subtotal": 79.99
+  },
+  {
+    "customer_id": 18,
+    "customer_name": "Linda Moore",
+    "email": "linda.moore@email.com",
+    "order_id": 1019,
+    "order_date": "2023-06-02",
+    "order_status": "Delivered",
+    "total_amount": 94.98,
+    "product_name": "Wireless Bluetooth Headphones",
+    "brand": "SoundMax",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 79.99,
+    "subtotal": 79.99
+  },
+  {
+    "customer_id": 18,
+    "customer_name": "Linda Moore",
+    "email": "linda.moore@email.com",
+    "order_id": 1019,
+    "order_date": "2023-06-02",
+    "order_status": "Delivered",
+    "total_amount": 94.98,
+    "product_name": "Phone Stand",
+    "brand": "DeskPro",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 14.99,
+    "subtotal": 14.99
+  },
+  {
+    "customer_id": 16,
+    "customer_name": "Patricia Thomas",
+    "email": "patricia.thomas@email.com",
+    "order_id": 1018,
+    "order_date": "2023-06-01",
+    "order_status": "Shipped",
+    "total_amount": 119.98,
+    "product_name": "Wireless Bluetooth Headphones",
+    "brand": "SoundMax",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 79.99,
+    "subtotal": 79.99
+  },
+  {
+    "customer_id": 16,
+    "customer_name": "Patricia Thomas",
+    "email": "patricia.thomas@email.com",
+    "order_id": 1018,
+    "order_date": "2023-06-01",
+    "order_status": "Shipped",
+    "total_amount": 119.98,
+    "product_name": "Stainless Steel Water Bottle",
+    "brand": "HydratePlus",
+    "category_name": "Home & Kitchen",
+    "quantity": 1,
+    "unit_price": 29.99,
+    "subtotal": 29.99
+  },
+  {
+    "customer_id": 16,
+    "customer_name": "Patricia Thomas",
+    "email": "patricia.thomas@email.com",
+    "order_id": 1018,
+    "order_date": "2023-06-01",
+    "order_status": "Shipped",
+    "total_amount": 119.98,
+    "product_name": "Phone Stand",
+    "brand": "DeskPro",
+    "category_name": "Electronics",
+    "quantity": 1,
+    "unit_price": 14.99,
+    "subtotal": 14.99
+  }
+]
+
+Total rows: 15
+
+
+QUERY 2 RESULTS:
+[
+  {
+    "category_name": "Electronics",
+    "total_orders": 18,
+    "total_items_sold": 29,
+    "total_quantity": 29,
+    "total_revenue": 1704.7099999999998,
+    "avg_product_price": 58.78310344827585
+  },
+  {
+    "category_name": "Clothing",
+    "total_orders": 7,
+    "total_items_sold": 7,
+    "total_quantity": 7,
+    "total_revenue": 554.93,
+    "avg_product_price": 79.27571428571427
+  },
+  {
+    "category_name": "Home & Kitchen",
+    "total_orders": 3,
+    "total_items_sold": 3,
+    "total_quantity": 3,
+    "total_revenue": 109.97,
+    "avg_product_price": 36.656666666666666
+  },
+  {
+    "category_name": "Accessories",
+    "total_orders": 1,
+    "total_items_sold": 1,
+    "total_quantity": 1,
+    "total_revenue": 69.99,
+    "avg_product_price": 69.99
+  }
+]
+
+Total categories: 4
+
+
+QUERY 3 RESULTS:
+[
+  {
+    "customer_id": 5,
+    "customer_name": "David Jones",
+    "city": "Phoenix",
+    "state": "AZ",
+    "order_count": 2,
+    "total_spent": 254.95999999999998,
+    "avg_order_value": 127.47999999999999
+  },
+  {
+    "customer_id": 1,
+    "customer_name": "John Smith",
+    "city": "New York",
+    "state": "NY",
+    "order_count": 2,
+    "total_spent": 234.95999999999998,
+    "avg_order_value": 117.47999999999999
+  },
+  {
+    "customer_id": 9,
+    "customer_name": "James Rodriguez",
+    "city": "Dallas",
+    "state": "TX",
+    "order_count": 2,
+    "total_spent": 209.96999999999997,
+    "avg_order_value": 104.98499999999999
+  },
+  {
+    "customer_id": 7,
+    "customer_name": "Robert Miller",
+    "city": "San Antonio",
+    "state": "TX",
+    "order_count": 2,
+    "total_spent": 179.98,
+    "avg_order_value": 89.99
+  },
+  {
+    "customer_id": 14,
+    "customer_name": "Jennifer Wilson",
+    "city": "Columbus",
+    "state": "OH",
+    "order_count": 1,
+    "total_spent": 149.98,
+    "avg_order_value": 149.98
+  },
+  {
+    "customer_id": 3,
+    "customer_name": "Michael Williams",
+    "city": "Chicago",
+    "state": "IL",
+    "order_count": 2,
+    "total_spent": 139.98,
+    "avg_order_value": 69.99
+  },
+  {
+    "customer_id": 8,
+    "customer_name": "Amanda Davis",
+    "city": "San Diego",
+    "state": "CA",
+    "order_count": 1,
+    "total_spent": 134.98,
+    "avg_order_value": 134.98
+  },
+  {
+    "customer_id": 4,
+    "customer_name": "Sarah Brown",
+    "city": "Houston",
+    "state": "TX",
+    "order_count": 1,
+    "total_spent": 124.98,
+    "avg_order_value": 124.98
+  },
+  {
+    "customer_id": 16,
+    "customer_name": "Patricia Thomas",
+    "city": "San Francisco",
+    "state": "CA",
+    "order_count": 1,
+    "total_spent": 119.98,
+    "avg_order_value": 119.98
+  },
+  {
+    "customer_id": 15,
+    "customer_name": "Joseph Anderson",
+    "city": "Charlotte",
+    "state": "NC",
+    "order_count": 1,
+    "total_spent": 109.98,
+    "avg_order_value": 109.98
+  }
+]
+
+Top 10 customers
+
+
+QUERY 4 RESULTS:
+[
+  {
+    "product_id": 1,
+    "product_name": "Wireless Bluetooth Headphones",
+    "brand": "SoundMax",
+    "category_name": "Electronics",
+    "price": 79.99,
+    "stock_quantity": 150,
+    "times_ordered": 16,
+    "total_quantity_sold": 16,
+    "total_revenue": 1279.84,
+    "remaining_stock": 134
+  },
+  {
+    "product_id": 5,
+    "product_name": "Running Shoes - Black",
+    "brand": "RunFast",
+    "category_name": "Clothing",
+    "price": 89.99,
+    "stock_quantity": 120,
+    "times_ordered": 5,
+    "total_quantity_sold": 5,
+    "total_revenue": 449.95,
+    "remaining_stock": 115
+  },
+  {
+    "product_id": 15,
+    "product_name": "Bluetooth Speaker",
+    "brand": "AudioWave",
+    "category_name": "Electronics",
+    "price": 64.99,
+    "stock_quantity": 130,
+    "times_ordered": 3,
+    "total_quantity_sold": 3,
+    "total_revenue": 194.96999999999997,
+    "remaining_stock": 127
+  },
+  {
+    "product_id": 8,
+    "product_name": "Wireless Mouse",
+    "brand": "TechMouse",
+    "category_name": "Electronics",
+    "price": 34.99,
+    "stock_quantity": 200,
+    "times_ordered": 3,
+    "total_quantity_sold": 3,
+    "total_revenue": 104.97,
+    "remaining_stock": 197
+  },
+  {
+    "product_id": 18,
+    "product_name": "Phone Stand",
+    "brand": "DeskPro",
+    "category_name": "Electronics",
+    "price": 14.99,
+    "stock_quantity": 350,
+    "times_ordered": 5,
+    "total_quantity_sold": 5,
+    "total_revenue": 74.95,
+    "remaining_stock": 345
+  },
+  {
+    "product_id": 11,
+    "product_name": "Backpack - Black",
+    "brand": "TravelGear",
+    "category_name": "Accessories",
+    "price": 69.99,
+    "stock_quantity": 140,
+    "times_ordered": 1,
+    "total_quantity_sold": 1,
+    "total_revenue": 69.99,
+    "remaining_stock": 139
+  },
+  {
+    "product_id": 4,
+    "product_name": "Denim Jeans - Blue",
+    "brand": "DenimCo",
+    "category_name": "Clothing",
+    "price": 59.99,
+    "stock_quantity": 200,
+    "times_ordered": 1,
+    "total_quantity_sold": 1,
+    "total_revenue": 59.99,
+    "remaining_stock": 199
+  },
+  {
+    "product_id": 7,
+    "product_name": "Stainless Steel Water Bottle",
+    "brand": "HydratePlus",
+    "category_name": "Home & Kitchen",
+    "price": 29.99,
+    "stock_quantity": 250,
+    "times_ordered": 2,
+    "total_quantity_sold": 2,
+    "total_revenue": 59.98,
+    "remaining_stock": 248
+  },
+  {
+    "product_id": 10,
+    "product_name": "LED Desk Lamp",
+    "brand": "BrightLight",
+    "category_name": "Home & Kitchen",
+    "price": 49.99,
+    "stock_quantity": 160,
+    "times_ordered": 1,
+    "total_quantity_sold": 1,
+    "total_revenue": 49.99,
+    "remaining_stock": 159
+  },
+  {
+    "product_id": 2,
+    "product_name": "Smartphone Case - Clear",
+    "brand": "ProtectPro",
+    "category_name": "Electronics",
+    "price": 24.99,
+    "stock_quantity": 300,
+    "times_ordered": 2,
+    "total_quantity_sold": 2,
+    "total_revenue": 49.98,
+    "remaining_stock": 298
+  }
+]
+
+Top 10 products by revenue
+
+
+QUERY 5 RESULTS:
+[
+  {
+    "order_status": "Delivered",
+    "order_count": 10,
+    "unique_customers": 8,
+    "total_revenue": 1014.8499999999999,
+    "avg_order_value": 101.48499999999999,
+    "total_shipping_cost": 65.9
+  },
+  {
+    "order_status": "Shipped",
+    "order_count": 8,
+    "unique_customers": 8,
+    "total_revenue": 889.86,
+    "avg_order_value": 111.2325,
+    "total_shipping_cost": 55.92
+  },
+  {
+    "order_status": "Processing",
+    "order_count": 7,
+    "unique_customers": 7,
+    "total_revenue": 474.91,
+    "avg_order_value": 67.84428571428572,
+    "total_shipping_cost": 41.93
+  }
+]
+
+Status breakdown complete
+
+
+QUERY 6 RESULTS:
+[
+  {
+    "order_id": 1001,
+    "order_date": "2023-05-15",
+    "order_status": "Delivered",
+    "customer_name": "John Smith",
+    "customer_email": "john.smith@email.com",
+    "customer_city": "New York",
+    "product_name": "Wireless Bluetooth Headphones",
+    "category_name": "Electronics",
+    "brand": "SoundMax",
+    "quantity": 1,
+    "unit_price": 79.99,
+    "subtotal": 79.99,
+    "order_total": 104.98,
+    "payment_method": "Credit Card",
+    "shipping_cost": 5.99
+  },
+  {
+    "order_id": 1001,
+    "order_date": "2023-05-15",
+    "order_status": "Delivered",
+    "customer_name": "John Smith",
+    "customer_email": "john.smith@email.com",
+    "customer_city": "New York",
+    "product_name": "Smartphone Case - Clear",
+    "category_name": "Electronics",
+    "brand": "ProtectPro",
+    "quantity": 1,
+    "unit_price": 24.99,
+    "subtotal": 24.99,
+    "order_total": 104.98,
+    "payment_method": "Credit Card",
+    "shipping_cost": 5.99
+  },
+  {
+    "order_id": 1002,
+    "order_date": "2023-05-16",
+    "order_status": "Delivered",
+    "customer_name": "Michael Williams",
+    "customer_email": "michael.williams@email.com",
+    "customer_city": "Chicago",
+    "product_name": "Wireless Bluetooth Headphones",
+    "category_name": "Electronics",
+    "brand": "SoundMax",
+    "quantity": 1,
+    "unit_price": 79.99,
+    "subtotal": 79.99,
+    "order_total": 79.99,
+    "payment_method": "PayPal",
+    "shipping_cost": 5.99
+  },
+  {
+    "order_id": 1003,
+    "order_date": "2023-05-17",
+    "order_status": "Shipped",
+    "customer_name": "David Jones",
+    "customer_email": "david.jones@email.com",
+    "customer_city": "Phoenix",
+    "product_name": "Wireless Bluetooth Headphones",
+    "category_name": "Electronics",
+    "brand": "SoundMax",
+    "quantity": 1,
+    "unit_price": 79.99,
+    "subtotal": 79.99,
+    "order_total": 149.98,
+    "payment_method": "Credit Card",
+    "shipping_cost": 7.99
+  },
+  {
+    "order_id": 1003,
+    "order_date": "2023-05-17",
+    "order_status": "Shipped",
+    "customer_name": "David Jones",
+    "customer_email": "david.jones@email.com",
+    "customer_city": "Phoenix",
+    "product_name": "Running Shoes - Black",
+    "category_name": "Clothing",
+    "brand": "RunFast",
+    "quantity": 1,
+    "unit_price": 89.99,
+    "subtotal": 89.99,
+    "order_total": 149.98,
+    "payment_method": "Credit Card",
+    "shipping_cost": 7.99
+  },
+  {
+    "order_id": 1004,
+    "order_date": "2023-05-18",
+    "order_status": "Processing",
+    "customer_name": "Emily Johnson",
+    "customer_email": "emily.johnson@email.com",
+    "customer_city": "Los Angeles",
+    "product_name": "Hooded Sweatshirt - Gray",
+    "category_name": "Clothing",
+    "brand": "CozyWear",
+    "quantity": 1,
+    "unit_price": 44.99,
+    "subtotal": 44.99,
+    "order_total": 44.99,
+    "payment_method": "Debit Card",
+    "shipping_cost": 5.99
+  },
+  {
+    "order_id": 1005,
+    "order_date": "2023-05-19",
+    "order_status": "Delivered",
+    "customer_name": "Robert Miller",
+    "customer_email": "robert.miller@email.com",
+    "customer_city": "San Antonio",
+    "product_name": "Running Shoes - Black",
+    "category_name": "Clothing",
+    "brand": "RunFast",
+    "quantity": 1,
+    "unit_price": 89.99,
+    "subtotal": 89.99,
+    "order_total": 89.99,
+    "payment_method": "Credit Card",
+    "shipping_cost": 5.99
+  }
+]
+
+Sample order details: 7 items
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,22 @@
+product_id,product_name,category_id,price,stock_quantity,description,brand,sku,created_date
+1,Wireless Bluetooth Headphones,1,79.99,150,High-quality wireless headphones with noise cancellation,SoundMax,WH-1001,2023-01-10
+2,Smartphone Case - Clear,1,24.99,300,Transparent protective case for smartphones,ProtectPro,SC-CLR-001,2023-01-12
+3,Cotton T-Shirt - White,2,19.99,500,100% cotton comfortable t-shirt,ComfortWear,TS-WHT-M,2023-01-15
+4,Denim Jeans - Blue,2,59.99,200,Classic fit blue denim jeans,DenimCo,DJ-BLU-32,2023-01-18
+5,Running Shoes - Black,2,89.99,120,Lightweight running shoes with cushioned sole,RunFast,RS-BLK-10,2023-01-20
+6,Leather Wallet,3,45.99,180,Genuine leather wallet with multiple card slots,LeatherCraft,LW-BRN-001,2023-01-22
+7,Stainless Steel Water Bottle,4,29.99,250,Insulated water bottle keeps drinks cold for 24 hours,HydratePlus,WB-SS-750,2023-01-25
+8,Wireless Mouse,1,34.99,200,Ergonomic wireless mouse with long battery life,TechMouse,WM-BLK-001,2023-01-28
+9,Yoga Mat - Purple,5,39.99,175,Non-slip yoga mat with carrying strap,FitLife,YM-PUR-001,2023-02-01
+10,LED Desk Lamp,4,49.99,160,Adjustable LED desk lamp with USB charging port,BrightLight,LD-WHT-001,2023-02-05
+11,Backpack - Black,3,69.99,140,Water-resistant backpack with laptop compartment,TravelGear,BP-BLK-001,2023-02-08
+12,Coffee Maker,4,89.99,90,12-cup programmable coffee maker,BrewMaster,CM-BLK-001,2023-02-10
+13,Wireless Charging Pad,1,29.99,220,Fast wireless charging pad for smartphones,ChargeTech,WC-BLK-001,2023-02-12
+14,Hooded Sweatshirt - Gray,2,44.99,190,Soft fleece hooded sweatshirt,CozyWear,HS-GRY-L,2023-02-15
+15,Bluetooth Speaker,1,64.99,130,Portable Bluetooth speaker with 12-hour battery,AudioWave,BS-BLK-001,2023-02-18
+16,Kitchen Knife Set,4,79.99,110,5-piece stainless steel knife set,ChefPro,KS-SS-001,2023-02-20
+17,Baseball Cap - Navy,2,24.99,280,Adjustable baseball cap with embroidered logo,SportCap,BC-NAV-001,2023-02-22
+18,Phone Stand,1,14.99,350,Adjustable phone stand for desk or table,DeskPro,PS-BLK-001,2023-02-25
+19,Resistance Bands Set,5,24.99,200,Set of 5 resistance bands with door anchor,FitStrong,RB-COL-001,2023-02-28
+20,Tablet Stand,1,19.99,180,Adjustable tablet stand with 360-degree rotation,TabletPro,TS-SLV-001,2023-03-01
+
